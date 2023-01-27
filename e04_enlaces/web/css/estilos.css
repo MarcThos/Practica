@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+.m0a {
+    margin: 0 auto;
+}
+/*Canvia l'estil de tots els textes*/
+a,p,h1,h2,h3,h4,h5,h6,li,ul,ol,body {
+    color: whitesmoke;
+    font-family: Cinzel;
+}
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w25 {
+    width: 25%;
+}
+/*Estil menú*/
+nav {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(255, 94, 0, 0.164);
+    border-radius: 0px 0px 10px 10px;
+}
+.desplegable {
+    position: relative;
+    display: inline-block;
+    list-style-type:none;
+    padding: 0px;
+}  
+.contingut {
+    display: none;
+    background-color: rgb(230, 93, 2);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 16px;
+    position:absolute; left:-0px; top:54px;
+}
+
+ul.desplegable {
+    padding: 15.75px;
+    margin: 0px;
+}
+.desplegable span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.desplegable ul:hover { 
+    background-color: rgb(230, 93, 2);
+}
+.intern:hover .intern{
+    display: inline-block;
+}
+.extern:hover .extern{
+    display: block;
+}
+/*Estil body*/
+body {
+    text-align: center;
+    background-image: url(../img/background.jpg);
+    width: 800px;
+    border-right: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-bottom:1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 100px 0 rgb(233, 116, 7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px;
+}
+
+body p {
+    text-align: justify;
+}
+body#home p {
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+body#principal div.personajes {
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: justify;
+}
+body img {
+    width: 100%;
+    border-radius: 10px;
+    border: solid 1px;
+}
+ul.desplegable:hover {
+    background-color: rgb(230, 93, 2);
+    margin: 0px;
+    transition: 0.2s;
+}
+
+nav, .inner {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+a {
+    text-decoration: none;
+}
+
+.desplegable a:hover {
+    color: black;
+}
+
+.special {
+    font-weight: bolder;
+    color: red;
+}
+
+
+#personajes div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#personajes img {
+    width: 75%;
+    border: none;
+    border-radius: none;
+}
+
+.inner {
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#personajes p {
+    text-align:center;
+    vertical-align: middle;
+}
+
+#descargas img {
+    border: none;
+    width: 10%;
+    padding: 15px;
+}
