@@ -143,3 +143,7 @@ a {
     width: 10%;
     padding: 15px;
 }
+
+#descargas img:hover {
+    background-color: red;
+}
